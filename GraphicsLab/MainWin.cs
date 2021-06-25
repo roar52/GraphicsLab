@@ -194,7 +194,7 @@ namespace GraphicsLab
             {
                 this.SetBounds(0, 0, Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
                 this.panel1.Width = Screen.PrimaryScreen.Bounds.Width;
-                this.dataGridView1.Size = new Size(863, 1000);
+                this.dataGridView1.Size = new Size(Screen.PrimaryScreen.Bounds.Width-500, 1000);
                 WideScreen = true;
             }
             else 

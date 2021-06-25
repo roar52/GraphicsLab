@@ -58,6 +58,7 @@ namespace GraphicsLab
             // 
             // Save
             // 
+            this.Save.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.Save.Location = new System.Drawing.Point(508, 303);
             this.Save.Name = "Save";
             this.Save.Size = new System.Drawing.Size(89, 23);
@@ -117,6 +118,7 @@ namespace GraphicsLab
             // 
             // textBox1
             // 
+            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.textBox1.Location = new System.Drawing.Point(622, 303);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(115, 23);
@@ -124,6 +126,7 @@ namespace GraphicsLab
             // 
             // AutoSave
             // 
+            this.AutoSave.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.AutoSave.AutoSize = true;
             this.AutoSave.Location = new System.Drawing.Point(622, 274);
             this.AutoSave.Name = "AutoSave";
@@ -143,7 +146,7 @@ namespace GraphicsLab
             this.panel1.Size = new System.Drawing.Size(801, 29);
             this.panel1.TabIndex = 9;
             // 
-            // Form1
+            // MainWin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -156,7 +159,7 @@ namespace GraphicsLab
             this.Controls.Add(this.Save);
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "MainWin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Графики";
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.dataGridView1_DragDrop);
